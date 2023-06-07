@@ -1,5 +1,5 @@
-node{
-    stage ('clone'){
+node {
+    stage ('clone') {
         checkout scm
     }
     stage ('build image') {
