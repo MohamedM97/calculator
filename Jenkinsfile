@@ -1,4 +1,4 @@
-node{
+node {
     stage ('clone') {
         checkout scm
     }
